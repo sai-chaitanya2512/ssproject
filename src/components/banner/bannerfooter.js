@@ -6,12 +6,12 @@ const Bannerfooter = () => {
 
     const services = [
         {
-            img: "http://www.yellowpages.in/assets/category/apparels-and-accessories.png",
+            img: "https://res.cloudinary.com/dli6rliuj/image/upload/v1674296787/apparels-and-accessories_qfxt53.png",
             name: "Apparels & Accessories",
             topath: "/apparels"
         },
         {
-            img: "http://www.yellowpages.in/assets/category/food-and-beverages.png",
+            img: "https://res.cloudinary.com/dli6rliuj/image/upload/v1674296787/food-and-beverages_qdzmub.png",
             name: "Food & Beverages",
             topath: "/food"
         },
@@ -21,22 +21,22 @@ const Bannerfooter = () => {
             topath: "/beauty"
         },
         {
-            img: "http://www.yellowpages.in/assets/category/education.png",
+            img: "https://res.cloudinary.com/dli6rliuj/image/upload/v1674296787/education_vzai1f.png",
             name: "Education",
             topath: "/education"
         },
         {
-            img: "http://www.yellowpages.in/assets/category/health.png",
+            img: "https://res.cloudinary.com/dli6rliuj/image/upload/v1674296787/health_kcgsc7.png",
             name: "Health",
             topath: "/health"
         },
         {
-            img: "http://www.yellowpages.in/assets/category/wedding-and-events.png",
+            img: "https://res.cloudinary.com/dli6rliuj/image/upload/v1674296787/wedding-and-events_txlijv.png",
             name: "Wedding & Events",
             topath: "/wedding"
         },
         {
-            img: "http://www.yellowpages.in/assets/category/printing-and-stationaries.png",
+            img: "https://res.cloudinary.com/dli6rliuj/image/upload/v1674296871/printing-and-stationaries_q58ytz.png",
             name: "Printing & Stationaries",
             topath: "/printing"
         },
