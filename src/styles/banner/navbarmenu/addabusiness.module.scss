@@ -1,0 +1,119 @@
+.whole {
+    .middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // background-color: red;
+        width: 100%;
+        margin: auto;
+
+
+        .listedbtn {
+            display: flex;
+            margin: auto;
+            width: fit-content;
+            background-color: skyblue;
+            border: none;
+            font-size: 1.25rem;
+            padding: 1rem 3rem;
+            border-radius: 3px;
+            
+        }
+
+
+        .heading {
+            width: 60%;
+            margin: auto;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+
+            h3,
+            h5 {
+
+                font-weight: 500;
+            }
+
+        }
+
+        .heading1 {
+            width: 60%;
+            margin: auto;
+            font-size: 1rem;
+            margin-bottom: 10rem;
+            text-align: center;
+            
+            h4 {
+                margin-bottom: 0.75rem;
+                font-size: 1.28rem;
+                font-weight: 400;
+            }
+
+        }
+
+        .facility {
+            width: 60%;
+            font-size: 1rem;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            margin-bottom: 5rem;
+            
+            div {
+                width: 23%;
+                
+                h4 {
+                    margin-bottom: 0.5rem;
+                    font-size: 1.20rem;
+                    font-weight: 500;
+                }
+            }
+
+        }
+
+        h5 {
+            color: grey;
+        }
+
+        .businessfeatures {
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            word-wrap: break-word;
+            background-color: rgba(128, 128, 128, 0.37);
+            padding: 1.5rem;
+            margin-bottom: 2.5rem;
+
+            .posters {
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+                width: 100%;
+
+                .poster1,
+                .poster2,
+                .poster3 {
+                    width: 29%;
+
+                    h4 {
+                        font-size: 1.5rem;
+                        font-weight: 400;
+                    }
+
+
+                    div {
+                        width: 100%;
+                        height: 12rem;
+                        background-color: white;
+                    }
+                }
+            }
+
+           
+
+        }
+    }
+}

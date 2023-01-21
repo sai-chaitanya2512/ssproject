@@ -1,0 +1,75 @@
+.whole {
+    width: 100%;
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 0rem ;
+    
+    .inner {
+        justify-content: center;
+        padding: .5rem 0rem;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    
+    .single {
+        // padding: .5rem;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        width: fit-content;
+        position: relative;
+width: 16rem;
+
+
+        .imager
+        {
+            width: 100%;
+        }
+
+
+        .filledstar,
+        .outlinedstar {
+            width: 2rem;
+            height: 2rem;
+            color: skyblue;
+            // background-color: aqua;
+        }
+
+        // background-color: red;
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
+        .tick {
+            position: absolute;
+            right: 0px;
+            height: 1.25rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: skyblue;
+            padding: .25rem;
+        }
+
+        div {
+            width: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+    }
+
+}

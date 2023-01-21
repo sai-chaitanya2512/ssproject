@@ -1,0 +1,41 @@
+.whole {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+    gap: 10rem;
+    font-size: 1.10rem;
+    margin: auto;
+    width: 98%;
+    background-color: #373A3D;
+    // margin-top: 1rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+    border-top: 3px solid skyblue;
+
+    h3 {
+        color: skyblue;
+    }
+
+    ul {
+
+        line-height: 1.5rem;
+
+        li {
+            color: white;
+        }
+    }
+
+    .icon {
+        width: 4rem;
+        height: auto;
+    }
+}
+
+.ender {
+    margin: auto;
+    width: 98%;
+    font-size: 0.85rem;
+    padding: 1rem 0rem;
+    text-align: center;
+    color: white;
+    background-color: #3A3E40;
+}
