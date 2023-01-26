@@ -45,25 +45,17 @@ const Bannerfooter = () => {
 
 
     const check = localStorage.getItem("key")
-    // setInterval(() => {
-
 
     console.log(check);
 
-    // }, 1000);
 
     useEffect(() => {
-
         if (check == "true") {
             console.log(12);
             const i = document.querySelectorAll("img")
             console.log(i);
         }
     }, [check])
-
-
-
-
 
 
 
@@ -93,7 +85,6 @@ const Bannerfooter = () => {
                         </Link>
                     )
                 })
-
                 }
 
 

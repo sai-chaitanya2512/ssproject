@@ -61,3 +61,41 @@
 
 
 }
+
+
+@media (min-width:1024px) and (max-width:1208px) {
+
+    h1 {
+        font-size: 2.5rem !important;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1023px) {
+
+    h1 {
+        font-size: 2.15rem !important;
+    }
+}
+
+@media (min-width:475px) and (max-width:767px) {
+
+    h1 {
+        font-size: 2rem !important;
+    }
+}
+
+
+@media (min-width:475px) and (max-width:767px) {
+
+    h1 {
+        font-size: 1.35rem !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:474px) {
+
+    h1 {
+        font-size: 1rem !important;
+    }
+}

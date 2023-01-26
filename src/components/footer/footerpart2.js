@@ -1,3 +1,4 @@
+
 import React from 'react'
 import style from "../../styles/footer/footerpart2.module.scss";
 import { FacebookFilled, TwitterOutlined, GooglePlusOutlined, YoutubeFilled } from "@ant-design/icons"
@@ -33,7 +34,7 @@ const Footerpart2 = () => {
                     <li>Login to your account</li>
                 </ul>
 
-                <div>
+                <div className={style.iscondiv}>
                     <h3>Mobile & Social</h3>
 
                     <FacebookFilled className={style.icon} />

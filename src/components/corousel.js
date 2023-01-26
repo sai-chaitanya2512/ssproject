@@ -21,7 +21,7 @@ const Corousel = () => {
             location: "nad kotha road, Visakhapatnam"
         },
         {
-            img: "https://scontent.fhyd11-2.fna.fbcdn.net/v/t39.30808-6/316082004_5725788554126656_5139596498759754882_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=1dMEUZ1HIkEAX_wePu5&_nc_ht=scontent.fhyd11-2.fna&oh=00_AfArna_hdjC3FOCCVogAmAUnFmPmfoKMUpfSa5bp85hoNA&oe=63CF1EFE",
+            img: "https://res.cloudinary.com/dli6rliuj/image/upload/v1674559657/IMG_Khadim_Logo_xglxlk.jpg",
             storename: "Khadims Foot wear",
             location: "baji junction, Visakhapatnam"
         },

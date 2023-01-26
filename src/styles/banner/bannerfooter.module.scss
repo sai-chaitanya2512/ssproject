@@ -6,7 +6,6 @@
     padding: 2rem 0rem 1.5rem 0rem;
 
 
-    
 
 
     .inner {
@@ -17,6 +16,12 @@
         justify-content: center;
         display: flex;
         color: white;
+
+        // .corosingle {
+        //     display: none;
+        //     // width: 100%;
+        // }
+
 
         .link {
             text-decoration: none !important;
@@ -47,6 +52,39 @@
         }
 
 
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .particular {
+        width: 5rem !important;
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width:1023px) {
+    .particular {
+        width: 5rem !important;
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width:475px) and (max-width:767px) {
+    .particular {
+        width: 4.75rem !important;
+        font-size: .85rem;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:474px) {
+    .particular {
+        width: 4.75rem !important;
+        font-size: .85rem;
     }
 
 }

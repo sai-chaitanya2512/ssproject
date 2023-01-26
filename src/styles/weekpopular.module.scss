@@ -19,7 +19,7 @@
         // gap: 1rem;
     }
 
-   
+
 
     .stores {
         width: 50%;
@@ -42,12 +42,12 @@
         justify-content: space-around;
         margin: 1rem;
         // background-color: red;
-        
+
         .left {
             display: flex;
             width: 100%;
             gap: 1rem;
-            
+
             .revstorephoto {
                 width: 12rem;
                 height: 8rem;
@@ -80,10 +80,10 @@
         width: .25rem;
         height: .25rem;
     }
-    
+
     .emailwebsite {
-        
-        
+
+
         .matteremail,
         .matterwebsite {
             text-decoration: none;
@@ -91,22 +91,22 @@
             margin-left: 1rem;
         }
     }
-    
+
     .matter {
         // width: 15rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        
+
         h5 {
             font-weight: 500;
             font-size: 1rem;
         }
-        
+
         // background-color: orange;
         h3 {
             a {
-                
+
                 font-size: 1.20rem;
                 text-decoration: none;
                 color: darkblue;
@@ -118,63 +118,60 @@
         display: flex;
         gap: 1.5rem;
         margin: 1rem;
-    
+
         .vertical {
             width: 12rem;
             // background-color: orange;
             // width: fit-content;
             height: auto;
-            
+
             display: flex;
             flex-direction: column;
 
 
 
-            .detailsbtn
-            {
+            .detailsbtn {
                 border: none;
                 background-color: white;
             }
-            
-            .detailsbtn:hover
-            {
+
+            .detailsbtn:hover {
                 cursor: pointer;
                 background-color: skyblue;
             }
 
 
-            .kalapic
-            {
+            .kalapic {
                 width: 12rem;
                 height: 8rem;
                 margin: auto;
             }
-    
+
             .stars {
                 display: flex;
             }
-            
+
             .mater {
                 margin-top: 2rem;
                 display: flex;
                 flex-direction: column;
                 gap: .25rem;
-    
+
                 div {
                     // width: 100%;
                     display: flex;
                     flex-wrap: wrap;
                     // word-wrap: break-word;
                     gap: .5rem;
-    
+
                     img {
                         width: 1.2rem;
                     }
-    
+
                 }
-    
+
             }
-    
+
             .detailsbtn {
                 width: 80%;
                 padding: 1rem 0rem;
@@ -185,7 +182,7 @@
                 background-color: white;
                 border: 1px solid black;
             }
-    
+
         }
     }
 
@@ -209,6 +206,7 @@
             text-align: center;
             gap: 1rem;
             width: 100%;
+
             button {
                 background-color: skyblue;
                 border: none;
@@ -265,8 +263,81 @@
         }
 
     }
+}
 
 
+@media (min-width:768px) and (max-width:1023px) {
+    .reviews {
 
+        display: none !important;
+    }
 
+    .stores {
+        width: 90% !important;
+    }
+
+}
+
+@media (min-width:530px) and (max-width:767px) {
+    .reviews {
+
+        display: none !important;
+    }
+
+    .stores {
+        width: 90% !important;
+    }
+
+}
+
+@media (min-width:475px) and (max-width:529px) {
+    .reviews {
+
+        display: none !important;
+    }
+
+    .stores {
+        width: 80% !important;
+    }
+
+    .longdiv
+    {
+        display: block !important;
+        
+        .left{
+            display: block !important;
+
+        }
+    }
+
+    .revstorephoto {
+        width: 100% !important;
+        height: 10rem !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:474px) {
+    .reviews {
+
+        display: none !important;
+    }
+
+    .stores {
+        width: 80% !important;
+    }
+
+    .longdiv
+    {
+        display: block !important;
+        
+        .left{
+            display: block !important;
+
+        }
+    }
+
+    .revstorephoto {
+        width: 100% !important;
+        height: 10rem !important;
+    }
 }

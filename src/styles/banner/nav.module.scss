@@ -1,5 +1,6 @@
 .whole {
     display: flex;
+    width: 100%;
     justify-content: space-around;
 
     .sslogo {
@@ -25,3 +26,77 @@
         }
     }
 }
+
+
+@media (max-width:1208px) and (min-width:1024px) {
+    .imageoutter {
+        width: 50%;
+    }
+
+    .sslogo {
+        width: 20% !important;
+    }
+
+    .end {
+        width: 70%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1023px)   {
+    .imageoutter {
+        width: 50%;
+    }
+
+    .sslogo {
+        width: 25% !important;
+    }
+
+    .end {
+        width: 70%;
+        font-size: 1.2rem !important;
+    }
+
+}
+
+
+@media (min-width:475px) and (max-width:767px) {
+
+    .imageoutter {
+        width: 50%;
+    }
+
+    .sslogo {
+        width: 25% !important;
+    }
+
+    .end {
+        width: 70%;
+        font-size: 1.2rem !important;
+    }
+}
+
+
+
+@media (min-width:320px) and (max-width:474px) {
+
+    .imageoutter {
+        width: 50%;
+    }
+
+    .whole{
+        justify-content: space-between;
+    }
+
+    .sslogo {
+        // float: left;
+        width: 50% !important;
+    }
+
+    .end {
+        display: none !important;
+        // width: 70%;
+        // font-size: 1.2rem !important;
+    }
+}
+

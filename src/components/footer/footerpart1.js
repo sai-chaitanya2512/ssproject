@@ -22,7 +22,7 @@ const Footerpart1 = () => {
 
 
                 <form>
-                    <div>
+                    <div className={style.aller}>
                         <div className={style.address} >
 
 
