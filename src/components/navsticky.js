@@ -33,7 +33,6 @@ const Navsticky = (prop) => {
             <div className={style.end}>
                 <Link to="/addbusiness">Add a Business</Link>
                 <Link to="/category">Categories</Link>
-                {/* <Link to="/myaccount">My Account</Link> */}
 
             </div>
 

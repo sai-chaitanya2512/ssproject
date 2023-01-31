@@ -10,30 +10,21 @@
     background-color: skyblue;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-
+    justify-content: space-around;
+    // gap: 1.5rem;
 
     .sslogo {
-        // background-color: yellow;
         width: 100%;
-        // width: 100%;
     }
 
     .start {
-        // background-color: greenyellow;
         width: 6%;
     }
 
     .end {
-        // width: fit-content;
         display: flex;
-        // width: 30%;
         align-items: center;
-        // background-color: pink;
         gap: 1rem;
-        // justify-content: space-evenly;
-
 
         a {
             color: white;
@@ -51,8 +42,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        // background-color: red;
-        width: 30%;
+        width: 53%;
 
         input {
             height: 3rem;
@@ -64,7 +54,6 @@
         }
 
         div {
-            // width: 10rem;
             background-color: white;
             border-radius: 0px 4px 4px 0px;
             display: flex;
@@ -79,7 +68,6 @@
             .searcher {
                 width: 2rem;
                 border-radius: 0px 4px 4px 0px;
-                // background-color: red;
             }
 
             select {
@@ -91,7 +79,26 @@
             }
         }
     }
+}
 
+
+@media screen and (max-width:750px) {
+
+    .whole {
+        justify-content: space-between;
+    }
+
+    .center {
+        display: none !important;
+    }
+
+    .end {
+        display: none !important;
+    }
+
+    .start {
+        width: 4rem !important;
+    }
 
 
 }

@@ -7,7 +7,6 @@
         width: 10%;
     }
 
-
     .end {
         width: fit-content;
         display: flex;
@@ -28,7 +27,7 @@
 }
 
 
-@media (max-width:1208px) and (min-width:1024px) {
+@media screen and (min-width:1024px) {
     .imageoutter {
         width: 50%;
     }
@@ -53,7 +52,7 @@
     }
 
     .end {
-        width: 70%;
+        width: 70% ;
         font-size: 1.2rem !important;
     }
 
@@ -71,8 +70,9 @@
     }
 
     .end {
-        width: 70%;
-        font-size: 1.2rem !important;
+        width: 70% !important;
+        // gap: .5rem;
+        font-size: 1rem !important;
     }
 }
 
@@ -95,8 +95,6 @@
 
     .end {
         display: none !important;
-        // width: 70%;
-        // font-size: 1.2rem !important;
     }
 }
 

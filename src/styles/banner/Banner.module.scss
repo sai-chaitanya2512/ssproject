@@ -10,10 +10,6 @@
 
 }
 
-
-
-
-
 .whole {
     padding: 1rem 0rem 0rem 0rem;
     display: flex;
@@ -21,23 +17,23 @@
     gap: 5rem;
     width: 100%;
     top: 0;
-    
     position: absolute;
-    // height: 51rem;
     background-color: transparent;
-    // background-size: cover;  
-    // filter: blur(8px);
-    // -webkit-filter: blur(8px);
-    // background-image: url("https://res.cloudinary.com/dli6rliuj/image/upload/v1674125882/pexels-pixabay-356036_tuqhgp.jpg");
 }
 
 
-@media (max-width:1208px) and (min-width:1024px) {
+@media screen and (min-width:1024px) {
     
     .contentdivs {
+        height: 52rem !important;
+    }
+    
+    .whole {
+        // background-color: red;
+        gap: 0rem;
+        justify-content: space-between;
         height: 51rem !important;
     }
-
 
     .courosal {
         width: 100%;
@@ -45,27 +41,11 @@
 
 }
 
-
-
-
-@media (max-width:1208px) and (min-width:1024px) {
-    
-    .contentdivs {
-        height: 50rem !important;
-    }
-
-    
-    
-}
-
-
 @media (max-width:1023px) and (min-width:768px) {
 
     .contentdivs {
         height: 50rem !important;
-        // max-height: auto;
     }
-
     .whole {
         gap: .5rem !important;
     }
@@ -83,10 +63,11 @@
 
 
 @media (min-width:561px) and (max-width:767px) {
-    
+
     .contentdivs {
         height: 46.25rem !important;
     }
+
     .whole {
         gap: 0rem !important;
     }
@@ -95,10 +76,11 @@
 
 
 @media (min-width:480px) and (max-width:560px) {
-    
+
     .contentdivs {
         height: 44.5rem !important;
     }
+
     .whole {
         gap: 0rem !important;
     }
@@ -107,10 +89,11 @@
 
 
 @media (min-width:479px) and (max-width:480px) {
-    
+
     .contentdivs {
         height: 44rem !important;
     }
+
     .whole {
         gap: 0rem !important;
     }
@@ -118,10 +101,11 @@
 }
 
 @media (min-width:475px) and (max-width:479px) {
-    
+
     .contentdivs {
         height: 54rem !important;
     }
+
     .whole {
         gap: 0rem !important;
     }
@@ -129,7 +113,7 @@
 }
 
 // @media (min-width:475px) and (max-width:479px) {
-    
+
 //     .contentdivs {
 //         height: 54rem !important;
 //     }
@@ -141,10 +125,11 @@
 
 
 @media (min-width:356px) and (max-width:474px) {
-    
+
     .contentdivs {
         height: 57.5rem !important;
     }
+
     .whole {
         gap: 0rem !important;
     }
@@ -152,10 +137,11 @@
 }
 
 @media (min-width:320px) and (max-width:355px) {
-    
+
     .contentdivs {
         height: 64.5rem !important;
     }
+
     .whole {
         gap: 0rem !important;
     }
